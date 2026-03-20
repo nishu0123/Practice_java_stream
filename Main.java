@@ -87,7 +87,7 @@ class Main {
         
         //6.Sort strings A-Z and Z-A using streams
         //here we have to sort the string 
-        List<String> sortedString = list.stream().map(String::sorted.naturalOrder())
+//        List<String> sortedString = list.stream().map(String::sorted.naturalOrder())
             
         
     }
