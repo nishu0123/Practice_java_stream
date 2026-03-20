@@ -5,7 +5,6 @@ import java.lang.Math;
 import java.util.stream.*;
 import java.util.Scanner;
 
-
 class Main {
     public static <T> void printList(List<T> list)
     {
@@ -14,18 +13,7 @@ class Main {
             System.out.print(list.get(i) + " ");
         }
     }
-    public static void practice_Stream_with_IntegerList(List<Integer> list){
-    //now code is working fine 
-    /*
-    Calculate average of integers using streams
-    */
-    // List<Integer> answer = list.((num  , sum)->{
-    //     sum += num;
-    // },
-    // (sum , size)->{
-        
-    // }
-    
+    public static void practice_Stream_with_IntegerList(List<Integer> list){    
     //at first we have to map the element into int or double 
     //and then get the average 
     //and then return return into the list 
