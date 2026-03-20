@@ -1,5 +1,4 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+// Online Java Compilere
 import java.util.*;
 import java.lang.Math;
 // import java.util.stream.IntStream;
@@ -73,14 +72,7 @@ class Main {
  List<Integer> distinctNumber = list.stream().mapToInt(Integer::intValue).distinct().boxed().collect(Collectors.toList());
  printList(distinctNumber);
  
- //5.
- 
-                            
-                            
-                            
-  
-  
-                        
+ //5.                 
                         
     }
     
@@ -108,19 +100,7 @@ class Main {
         //6.Sort strings A-Z and Z-A using streams
         //here we have to sort the string 
         List<String> sortedString = list.stream().map(String::sorted.naturalOrder())
-        
-        
-       
-        
-        
-
-
-        
-        
-        
-        
-        
-        
+            
         
     }
     public static void main(String[] args) {
